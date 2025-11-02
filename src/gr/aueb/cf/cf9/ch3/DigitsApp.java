@@ -22,7 +22,7 @@ public class DigitsApp {
         do {
             digits++;
             num /= 10;  // num = num / 10;
-        } while (num > 0);
+        } while (num != 0);
 
         System.out.println("The number of digits of " + inputNum + " is: " + digits);
     }
