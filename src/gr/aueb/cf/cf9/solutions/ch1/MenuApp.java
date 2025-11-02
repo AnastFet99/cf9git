@@ -1,4 +1,4 @@
-package gr.aueb.cf.solutions.ch1;
+package gr.aueb.cf.cf9.solutions.ch1;
 
 /**
  * Εκτυπώνει ένα μενού.
