@@ -42,5 +42,7 @@ public class SwitchApp {
                     break;
             }
         } while (choice != EXIT);
+
+        System.out.println("Goodbye");
     }
 }
