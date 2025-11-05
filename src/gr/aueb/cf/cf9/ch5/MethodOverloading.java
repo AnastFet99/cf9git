@@ -12,7 +12,7 @@ public class MethodOverloading {
         long sum2 = 0L;
         int sum3 = 0;
 
-        sum1 = add(10, 20);
+        sum1 = MethodOverloading.add(10, 20);
         sum2 = add(10L, 20L);
         sum3 = add(10, 20, 30);
 
