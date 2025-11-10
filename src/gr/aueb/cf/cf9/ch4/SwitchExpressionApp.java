@@ -13,15 +13,13 @@ public class SwitchExpressionApp {
         grade = scanner.nextInt();
 
         classification = switch (grade) {
-            case 1, 2, 3, 4 -> {
-                System.out.println("Fail");
-                yield 'F';
-            }
+            case 1, 2, 3, 4 -> 'F';
             case 5, 6 -> 'C';
             case 7, 8 -> 'B';
             case 9, 10 -> 'A';
             default -> 'U';
         };
+
 
         System.out.println("Classification: " + classification);
     }
