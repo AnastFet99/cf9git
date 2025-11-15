@@ -35,7 +35,7 @@ public class ArraysAsCollections {
 
 //        int[] arrayToReturn = new int[count];
 //
-//        for (int i = 0; i < count; i++) {
+//        for (int i = 0; i < arr.length; i++) {
 //            if (arr[i] % 2 == 0) {
 //                arrayToReturn[i] = arr[i];
 //            }
