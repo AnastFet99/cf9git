@@ -23,7 +23,7 @@ public class Arithmetic1App {
         System.out.println("Result: " + result);        // Δεν εκτελείται αυτή η γραμμή
     }
 
-    public static int div(int num1, int num2) {
+    public static int div(int num1, int num2)  {
         return num1 / num2;
     }
 }
