@@ -9,10 +9,15 @@ import java.util.Scanner;
 public class MenuApp {
 
     public static void main(String[] args) {
+
+        // Δήλωση και Αρχικοποίηση Μεταβλητών
         Scanner in = new Scanner(System.in);
         int choice = 0;
 
+        // Κάνε μέχρι ο χρήστης να δώσει 5
         while (true) {
+
+            // Είσοδος δεδομένων
             System.out.println("Επιλέξτε ένα από τα παρακάτω: ");
             System.out.println("1. Εισαγωγή");
             System.out.println("2. Διαγραφή");
@@ -23,6 +28,7 @@ public class MenuApp {
 
             choice = in.nextInt();
 
+            // Έλεγχος δεδομένων
             if (choice <= 0 || choice >= 6) {
                 System.out.println("Λάθος Επιλογή");
                 continue;
@@ -33,6 +39,7 @@ public class MenuApp {
                 break;
             }
 
+            // Εκτύπωση αποτελεσμάτων
             if (choice == 1) {
                 System.out.println("Εισαγωγή");
             } else if (choice == 2) {
