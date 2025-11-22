@@ -34,7 +34,6 @@ public class BankApp {
     public static void deposit(double amount) throws Exception {
         try {
             if (amount < 0) throw new Exception("Amount cannot be negative");
-
             balance += amount;
             // logging
         } catch (Exception e) {
