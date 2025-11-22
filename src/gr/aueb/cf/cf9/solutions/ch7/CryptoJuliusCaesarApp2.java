@@ -5,7 +5,7 @@ public class CryptoJuliusCaesarApp2 {
     public static void main(String[] args) {
         //String s = "JULIus CAESAR";
         String s = "abc";
-        final int KEY = 1;
+        final int KEY = 133;
 
         String encrypted = encrypt(s, KEY);
         System.out.println(encrypted);
