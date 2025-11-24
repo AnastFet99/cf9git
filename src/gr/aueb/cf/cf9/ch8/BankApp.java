@@ -1,6 +1,5 @@
 package gr.aueb.cf.cf9.ch8;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Scanner;
 
