@@ -1,6 +1,5 @@
 package gr.aueb.cf.cf9.ch9;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
