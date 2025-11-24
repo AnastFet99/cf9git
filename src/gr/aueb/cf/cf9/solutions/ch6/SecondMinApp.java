@@ -61,7 +61,6 @@ public class SecondMinApp {
                 secondMin = arr[minPosition];
             }
         }
-
         return minPosition;
     }
 }

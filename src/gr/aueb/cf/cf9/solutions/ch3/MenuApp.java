@@ -25,7 +25,6 @@ public class MenuApp {
             System.out.println("4. Αναζήτηση");
             System.out.println("5. Έξοδος");
             System.out.print("Δώστε επιλογή: ");
-
             choice = in.nextInt();
 
             // Έλεγχος δεδομένων
@@ -33,7 +32,6 @@ public class MenuApp {
                 System.out.println("Λάθος Επιλογή");
                 continue;
             }
-
             if (choice == 5) {
                 System.out.println("Έξοδος..");
                 break;

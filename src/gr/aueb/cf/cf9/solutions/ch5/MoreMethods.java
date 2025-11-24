@@ -4,13 +4,14 @@ public class MoreMethods {
 
     public static void main(String[] args) {
 
-        // fahrenheit
-        double input = 0;
-        double expected = 32;
-        double actual = celsiusToFahrenheit(input);
+        double celsius = 0;
+        double expectedFahrenheit = 32;
+        double actual = 0;
 
-        System.out.println("Expected: " + expected + ", Actual: " + actual);
-        System.out.println(actual == expected ? "Test passed" : "Test failed");
+        actual = celsiusToFahrenheit(celsius);
+
+        System.out.println("Expected: " + expectedFahrenheit + ", Actual: " + actual);
+        System.out.println(actual == expectedFahrenheit ? "Test passed" : "Test failed");
 
         // math utils
         int inputMathUtils = 5;
