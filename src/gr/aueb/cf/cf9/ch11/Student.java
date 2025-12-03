@@ -59,5 +59,6 @@ public class Student {
 
     public static int getStudentsCount() {
         return studentsCount;
+        //id = 0;           //   από static καλούμε μόνο static, όχι instance
     }
 }
