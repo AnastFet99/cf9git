@@ -17,9 +17,9 @@ package gr.aueb.cf.cf9.review_challenges;
 public class Fibonacci {
 
     public static void main(String[] args) {
-        int n = 10;
+        int n = 7;
 
-        System.out.println(fibonacci(10));
+        System.out.println(fibonacci(n));
     }
 
     /**
@@ -30,11 +30,14 @@ public class Fibonacci {
     public static int fibonacci(int n) {
         int a = 0;
         int b = 1;
-        int fibo = 0;
+        int fibo = 1;
 
-        if (n < 1) throw new IllegalArgumentException("Το n δεν μπορεί να είναι αρνητικό");
+        if (n < 0) throw new IllegalArgumentException("Το n δεν μπορεί να είναι αρνητικό");
 
-        for (int i = 1; i <= n; i++) {
+        if (n == 0) return a;
+        if (n == 1) return b;
+
+        for (int i = 2; i <= n; i++) {
             fibo = a + b;
             a = b;
             b = fibo;
