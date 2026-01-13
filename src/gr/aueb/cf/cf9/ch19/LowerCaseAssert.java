@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class LowerCaseAssert {
 
     public static void main(String[] args) {
-        String s = "XAGDSDRt";    // τουλάχιστον 8 χαρακτήρες τουλάχιστον 1 lower case
+        String s = "XAGDSEEEEEEEEEEEDRt";    // τουλάχιστον 8 χαρακτήρες τουλάχιστον 1 lower case
 
         Pattern pattern = Pattern.compile("(?=.*?[a-z])^.{8,}$");  // Zero-length assertion
         Matcher matcher = pattern.matcher(s);
