@@ -15,5 +15,4 @@ public class LowerCaseAssert {
             System.out.println( matcher.group());
         }
     }
-
 }
