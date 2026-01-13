@@ -58,4 +58,11 @@ public class RegEx {
         return s.matches("\\d{2}/\\d{2}/\\d{4}");
     }
 
+    public static boolean twoWords(String s) {
+        return s.matches(".*\\s+.*");
+    }
+
+    public static String reverse(String s) {
+        return s.replaceAll("(.+)\\s(.+)", "$2 $1" );   // backreference - groups
+    }
 }
