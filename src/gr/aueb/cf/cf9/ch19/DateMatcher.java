@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 public class DateMatcher {
 
     public static void main(String[] args) {
-        String date = "06/12/2024??????;;;; ccc aaa  11/05/1999 02/27/2000";
+        String date = "06/12/2024      ??????;;;; ccc aaa  11/05/1999cxxxxxx02/27/2000";
 
         Pattern pattern = Pattern.compile("(\\d{2})/(\\d{2})/(\\d{4})");
         Matcher matcher = pattern.matcher(date);
